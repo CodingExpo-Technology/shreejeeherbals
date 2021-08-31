@@ -15,6 +15,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Vitpro &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Vitpro &raquo; Comments Feed"
 		href="../comments/feed/index.html" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +41,7 @@
 		.product-card {
 			display: flex;
 			/* margin: 50px; */
-			margin-left: 70px;
+			margin-left: 100px;
 			padding: 30px;
 			flex-wrap: wrap;
 			letter-spacing: 1px;
@@ -458,9 +459,35 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, perferendis?</p>
 				</div>
 				<div class="product-card">
-					<div class="product-display-img">
-						<img style="height: 100%; width: 100%;" src="/product-images/pain killer.jpg" alt="">
-					</div>
+					<!-- <div class="product-display-img">
+						<img style="height: 100%; width: 100%;" src="../product-images/pain killer.jpg" alt="">
+					</div> -->
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 450px; height: 400px;">
+						<div class="carousel-indicators">
+						  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner" style="width: 450px; height: 400px;">
+						  <div class="carousel-item active">
+							<img src="../product-images/pain killer.jpg" class="d-block w-100" style="width: 450px; height: 400px;" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="../product-images/pain killer.jpg" class="d-block w-100" style="width: 450px; height: 400px;" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="../product-images/pain killer.jpg" class="d-block w-100" style="width: 450px; height: 400px;" alt="...">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" style="border-color: transparent;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" style="border-color: transparent;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					  </div>
 					<div class="product-card-content">
 						<div class="rating-star-container">
 							<div class="rating-star">
@@ -1453,7 +1480,7 @@
 	<script type='text/javascript'
 		src='../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min3d36.js?ver=3.3.1'
 		id='e-sticky-js'></script>
-
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 
 <!-- Mirrored from demo2.strongtheme.com/vitpro/detail-product/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jul 2021 11:15:10 GMT -->
